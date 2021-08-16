@@ -1,0 +1,11 @@
+This is an example showing how to set up your config.json
+
+"connectionString" will need to be your mongodb connection string, either from a local install or cloud provider.
+"secret" is a secret string used to sign and verify JWT for user authentication. R
+
+ONLY INCLUDE TEXT BELOW THIS LINE
+
+{
+    "connectionString": "mongodb+srv://<User>:<Password>@cluster0.ntoi8.mongodb.net/<DB-Name>?",
+    "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
+}
