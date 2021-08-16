@@ -1,0 +1,13 @@
+node_modules
+build
+npm-debug.log
+.env
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+#server config file
+config.json

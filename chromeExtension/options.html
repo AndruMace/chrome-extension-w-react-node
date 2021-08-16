@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="button.css">
+  </head>
+  <body>
+    <div>
+      <form action="http://localhost:4000/accounts/add-coupon" method="POST">
+        <label for="store">Store:</label>
+        <input name="store" type="text" placeholder="e.g. Walmart">
+
+        <label for="store">Code:</label>
+        <input name="code" type="text">
+
+        <input id="userID" type="hidden" name="uuid">
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+  <script src="options.js"></script>
+</html>
